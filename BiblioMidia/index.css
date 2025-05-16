@@ -1,8 +1,17 @@
-.linenav {
-  display: flex;
-  justify-content: center; 
-  margin-top: 0.75rem; 
-}
+  .linenav {
+    display: flex;
+    justify-content: center; /* centraliza os itens em telas maiores */
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    .linenav {
+      flex-direction: column; /* muda para coluna no celular */
+      align-items: center;    /* alinha ao centro na coluna */
+      gap: 0.75rem;
+    }
+  }
 
 img{
     
