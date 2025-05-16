@@ -1,8 +1,7 @@
-.linenav{
-    position: absolute;
-    top: 12px;
-    left: 930px;
-
+.linenav {
+  display: flex;
+  justify-content: center; 
+  margin-top: 0.75rem; 
 }
 
 img{
